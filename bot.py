@@ -10,7 +10,8 @@ from aiogram.fsm.storage.memory import MemoryStorage
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] [%(filename)s:%(lineno)d] - %(message)s")
 
-TOKEN = os.getenv("BOT_TOKEN", "YOUR_BOT_TOKEN_HERE")
+# توکنی بۆتەکەت لێرەدا جێگیر کرا
+TOKEN = os.getenv("BOT_TOKEN", "8710461680:AAHof_pEFC-Pp8CWX8LugXoa7KZMC10v6eo")
 PORT = int(os.getenv("PORT", 10000))
 
 bot = Bot(token=TOKEN)
